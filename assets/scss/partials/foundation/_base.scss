@@ -1,0 +1,54 @@
+html {
+  // font-size: 62.5%;
+}
+
+body {
+  position: relative;
+  // ゴシック
+  // font-family: -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue",
+  //   "ヒラギノ角ゴPro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo,
+  //   "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+
+  // 明朝
+  // font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+
+  overflow-x: hidden;
+  word-break: break-all;
+}
+
+pre {
+  white-space: pre-wrap;
+}
+
+a,
+input,
+button {
+  text-decoration: none;
+  color: inherit;
+  outline: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+input,
+textarea {
+  outline: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a[href*="tel"] {
+  @include pc {
+    pointer-events: none;
+    cursor: default;
+  }
+}
